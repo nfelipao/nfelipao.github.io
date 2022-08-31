@@ -1,0 +1,18 @@
+body{
+    background-color: #333533;
+}
+
+.text-priC{
+    color: #F5CB5C;
+}
+
+.text-subA{
+    position: relative;
+}
+.text-subA:hover{
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    
+}
