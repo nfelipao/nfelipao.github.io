@@ -71,10 +71,57 @@ body{
 }
 .descripcion{
     position: relative;
+    padding-top: 50px;
 }
 .descripcion p{
-    margin: 20px 30px;
+    margin: 10px 30px;
     color: #F5CB5C;
+}
+.descripcion h5{
+    border: 1px solid #F5CB5C;
+}
+.logo-list {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.logo-list img {
+    display: inline-block;
+    max-width: 85%;
+    padding: 15px 0;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: grayscale(100);
+    -moz-filter: grayscale(100);
+    filter: grayscale(100);
+}
+.logo-list img:hover {
+    filter: none;
+    transform: scale(1.2);
+    -webkit-filter: none;
+    -moz-filter: none;
+}
+.logo-p{
+    width: 170px;
+    height: 170px;
+}
+.logo-m{
+    border: 1px solid #F5CB5C;
+}
+.logo-m:hover{
+    background-color: #F5CB5C;
+    border-radius: 1%;
+    text-decoration: underline;
+    color: black;
+}
+.text-d{
+    color: black;
+    text-decoration: underline;
+    font-family: Roboto Mono;
+    background-color: #F5CB5C;
+    border: 1px solid black;
+}
+.text-d:hover{
+    color:black;
 }
 
 @media (max-width:640px){
