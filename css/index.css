@@ -93,4 +93,7 @@ body{
     .header h4{
         margin: 0;
     }
+    .audio-ctrl{
+        display: none;
+    }
 }
