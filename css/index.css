@@ -13,6 +13,8 @@ body{
     text-decoration: underline;
 }
 .dropdown:hover .dropdown-menu{
-    display: block;
-    
+    display: block; 
+}
+.carousel-item {
+    max-height: 40rem;
 }
